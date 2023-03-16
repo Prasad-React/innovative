@@ -1,0 +1,264 @@
+{
+  
+   
+  
+      
+ "...comment1":"Navigation Bar-Menu names and links",
+ "Navlink": [
+   {
+     "title": "HOME",
+     "link": "/Home"  }
+ ],
+
+ "drop":[
+   {
+     "name": "ABOUT",
+     "type": "page",
+     "children": [
+       {
+         "name": " Static data",
+         "link": "node201",
+         "type": "page"
+       }
+      
+     ]
+   },
+  
+   
+   {
+    "name": " CONTACT US",
+    "type": "page",
+    "children": [
+      {
+        "name": "CONTACT US",
+        "link": "node701",
+        "type": "page"
+      }
+     
+    ]
+  }
+
+ ],
+ "Pagetype1": [
+  {
+    "heading": "Call 5 day / 3 hour forecast data",
+    "cod": "200",
+    "message": 0,
+    "cnt": 40,
+    "list": [
+      {
+        "dt": 1661871600,
+        "main": {
+          "temp": 296.76,
+          "feels_like": 296.98,
+          "temp_min": 296.76,
+          "temp_max": 297.87,
+          "pressure": 1015,
+          "sea_level": 1015,
+          "grnd_level": 933,
+          "humidity": 69,
+          "temp_kf": -1.11
+        }
+      }
+      ]
+    }
+ ],
+     
+
+     
+ "contact": [
+  {
+    "title": "Contact Us",
+    "subtitle":" Office Location",
+    "header":"Office Address",
+    "paragraph": [
+      {
+        "p": " ,"
+      },
+      {
+        "p": "Government of Andhra Pradesh,"
+      },
+      {
+        "p": ","
+      },
+      {
+        "p": " Vijayawada,NTR District, Andhra Pradesh-520 008, INDIA."
+      }
+
+    ],
+    "imgsrc": "",
+    "imgalt": "image1",
+    "link" :"/nicapsc-dca/map"
+  }
+],
+
+
+ "Navlinkleft": [
+   {
+     "title": "Innovative",
+     "link": ""
+   }
+ ],
+
+
+  "cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [
+    {
+      "dt": 1661871600,
+      "main": {
+        "temp": 296.76,
+        "feels_like": 296.98,
+        "temp_min": 296.76,
+        "temp_max": 297.87,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 933,
+        "humidity": 69,
+        "temp_kf": -1.11
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.62,
+        "deg": 349,
+        "gust": 1.18
+      },
+      "visibility": 10000,
+      "pop": 0.32,
+      "rain": {
+        "3h": 0.26
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2022-08-30 15:00:00"
+    }
+  ],
+
+
+ "...comment2":"below link is - API url.",
+
+ "url":" http://openweathermap.org/forecast5",
+
+ "...comment3":"Social icons for top Navbar ",
+
+ "socialicons": [
+   {
+     "link1": "#home",
+     "title1": "SKIP TO MAIN CONTENT",
+     "link2": "",
+     "title2": "",
+     "iconslink": [
+      {
+        "iconname": "fa fa-facebook-f",
+        "link": "https://www.facebook.com/",
+        "description": ""
+      },
+       {
+        "iconname": "fa fa-instagram",
+        "link": "https://www.instagram.com/",
+        "description": ""
+       },
+       {
+         "iconname": "fa fa-twitter",
+         "link": "https://www.twitter.com/",
+         "description": ""
+       },
+       {
+        "iconname1": "fa fa-sitemap",
+        "link1": "sitemap",
+        "description": ""
+      }
+     ]
+   }
+ ],
+      
+
+ 
+        
+
+    
+ "...comment4":"Header Names and Images",
+
+ "Header": [
+   {
+     "img1": [
+       {
+         "imgsrc": "./images/P1H1.jpg",
+         "imgalt": "logo1",
+         "link": ""
+       }
+     ],
+     "heading": "Image Innovative",
+     "header":"",
+     "description": [
+       { "title": "Government of Andhra Pradesh" }
+     ],
+     "img2": [
+       {
+         "imgsrc": "./images/P1H2.jpg",
+         "imgalt": "logo2",
+         "link": ""
+       }
+     ]
+   }
+ ],
+
+ 
+ 
+ 
+
+ "...comment6":"Footer page updates",
+
+ "footerlink": [
+  {
+    "title":"Footer Menu",
+    "content":[
+   {
+    "title": "Website Policies",
+    "link": "websitepolicies"
+  },
+  {
+    "title": " Help",
+    "link": "help"
+  }
+]
+}
+],
+ "Footer": [
+   {
+     "p":"© imageinnovative. ",
+     "title": " ",
+     "link": "https://www.imageinnovative.in/"
+   },
+   {
+     "title": " Government of India",
+     "link": "https://www.innovative.in/"
+   },
+   {
+     "p":" Last Updated: March 03, 2023."
+   }
+ ]
+
+     }
+     
+
+
+
+
+
+
+
+
+   

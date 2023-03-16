@@ -18,11 +18,11 @@ function Pagetype1() {
                     <h5 className="  ">{content.dt}</h5>
                     <p>{content.p}</p>
                     <section>
-                      {content.paragraph.map((detail) => {
+                      {content.main.map((detail) => {
                         return (
                           <ul className="">
                           <p className="" id="p">
-                             {detail.p}
+                             {detail.temp}
                              </p>
                              </ul>
                         );

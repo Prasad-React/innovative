@@ -27,23 +27,7 @@ function Footer() {
           </section>
           )})}
           <section className="text-center">
-            <div>
-              <a className="logo1" target="_blank" href="https://ap.nic.in/">
-                <img
-                  src="https://ap.nic.in/wp-content/themes/sdo-theme/images/nic.png"
-                  alt="nic"
-                  style={{height:"40px"}}
-                />
-              </a>
-              <a
-                className="logo2"
-                id="vl"
-                href="https://www.digitalindia.gov.in/"
-                target="_blank"
-              >
-               
-              </a>
-            </div>
+           
         
  
   

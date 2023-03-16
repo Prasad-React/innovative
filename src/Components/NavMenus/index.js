@@ -4,7 +4,6 @@ import "./index.css";
 import Nav from "../Header/Nav.js";
 import NavBar from "../Header/NavBar.js";
 import data from "../../sitedata.json";
-import { MdLaunch } from "react-icons/md";
 import Dropdown from "react-multilevel-dropdown";
 
 
@@ -83,138 +82,7 @@ function Header() {
                 )})}
           </ul>
 
-        {/*   <ul className="navbar-nav navlinkdetails  links">
-          {data.down.map((menu) => (
-           <Dropdown
-             title={menu.name} 
-             ClassName=""
-             id="nav-Dropdown" 
-             className=" dropdown-toggle"
-             data-toggle="dropdown"
-           
-          >
-            <div className="Dropdown-item" id="item">
-             {menu.children &&
-              menu.children.map((item) => (
-               <Dropdown.Item 
-                className="dropdown-item" id="padding">
-                <li className=""  id="dropdown-item">
-              <a 
-                  className="nav-link"
-                   id=""
-                  href={item.link}
-                  
-                > 
-                {item.name }
-                  </a>
-                  </li>
-                   {item.childre &&
-                     item.childre.map((submenu) => (
-                       <Dropdown.Submenu position="right">
-                         <Dropdown.Item>{submenu.name}</Dropdown.Item>
-                          {item.childr &&
-                            item.childr.map((submenu) => (
-                             <Dropdown.Submenu position="right">
-                               <Dropdown.Item>{submenu.name}</Dropdown.Item>
-                             </Dropdown.Submenu>
-                           ))}
-                       </Dropdown.Submenu>
-                     ))}
-                 </Dropdown.Item>
-               ))}
-               </div>
-          
-           </Dropdown>
-         
-           ))}
-         
-         </ul>
-
-
-
-             <ul className="navbar-nav navlinkdetails  links">
-              {data.Navlink1.map((j) => {
-                return (
-                    <li className="nav-item ">
-                      <a className="nav-link " href={j.link} id="navbarDropdown">
-                        {j.title}
-                        <span className="sr-only">(current)</span>
-                      </a>
-                    </li>
-                );
-              })} 
-            </ul>
-
-            <ul className="navbar-nav navlinkdetails  links">
-              {data.Navlink2.map((j) => {
-                return (
-                    <li className="nav-item ">
-                      <a className="nav-link " 
-                      href={j.link} 
-                      onClick="return confirm('You are being redirected to an external website.')" 
-                      area-label="Citizen Charter-External site that opens a new link" 
-                      id="navbarDropdown">
-                        {j.title}
-                        <span className="sr-only">(current)</span>
-                      </a>
-                    </li>
-                 );
-               })}
-             </ul>
-         
-             <ul className="navbar-nav navlinkdetails  links">
-              {data.Navlink3.map((j) => {
-                return (
-                    <li className="nav-item ">
-                      <a className="nav-link " href={j.link} id="navbarDropdown">
-                        {j.title}
-                        <span className="sr-only">(current)</span>
-                      </a>
-                    </li>
-                );
-              })}
-            </ul>
-
-
-            {/*  <ul className="navbar-nav mr-auto links">
-              <li className="nav-item dropdown">
-                {data.Navlinkdropdown.map((i) => {
-                  return (
-                    <>
-                      <a
-                        className="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        {i.title}
-                      </a>
-
-                      {i.subnavlinks.map((e) => {
-                        return (
-                          <>
-                            <section
-                              className="dropdown-menu"
-                              aria-labelledby="navbarDropdown"
-                            >
-                              <a
-                                className="nav-link-dropdown "
-                                href={e.sublink}
-                              >
-                                {e.subtitle}
-                              </a>
-                            </section>
-                          </>
-                        );
-                      })}
-                    </>
-                  );
-                })}
-              </li>
-            </ul> */}
+      
 
        <ul className="navbar-nav ml-auto links" >
               {data.Navlinkleft.map((j) => {
@@ -223,7 +91,6 @@ function Header() {
                     <li className="nav-item " >
                       <a className="nav-link" id="navbarDropdown2"  href={j.link} target="_blank" >
                        {j.title } 
-                       < MdLaunch  size="1.5em" color="red" /> 
                         <span className="sr-only" >
                         </span>
                       </a>

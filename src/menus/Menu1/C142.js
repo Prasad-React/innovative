@@ -16,7 +16,7 @@ class App extends React.Component {
     // execute the code 
     componentDidMount() {
         fetch(
-"")
+" http://openweathermap.org/forecast5")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
@@ -28,15 +28,15 @@ class App extends React.Component {
     render() {
         const { DataisLoaded, items } = this.state;
         if (!DataisLoaded) return <div>
-            <h1> Pleses wait some time.... </h1> </div> ;
+            <h1> Please wait for some time.... </h1> </div> ;
    
         return (
         <div className = "App">
             <h1> Fetch data from an api in react </h1>  {
                 items.map((item) => ( 
                 <ol key = { item.id } >
-                    User_Name: { item.username }, 
-                    Full_Name: { item.name }, 
+                    User_Name: { item.cod }, 
+                    Full_Name: { item.message }, 
                     User_Email: { item.email } 
                     </ol>
                 ))

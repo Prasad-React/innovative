@@ -2,8 +2,6 @@
 import React from "react";
 import "./Sitemap.css";
 import data from "../../sitedata.json";
-import { MdLaunch } from "react-icons/md";
-import Dropdown from "react-multilevel-dropdown";
 
 function Header() {
   return (
@@ -129,7 +127,6 @@ function Header() {
                       <a className="" id="navbarDropdown2"  href={j.link} target="_blank" >
                       <i  className=" fa fa-hand-o-right  px-2"></i>  
                         {j.title } 
-                       < MdLaunch  size="1.5em" color="red" /> 
                         <span className="sr-only" >
                         </span>
                       </a>

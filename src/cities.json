@@ -8,6 +8,7 @@
     "capital": "admin",
     "lat": "44.34",
     "lng": "10.99",
+  
     "center": ["44.34", "10.99"],   
     "zoomlevel": "10"
 }]

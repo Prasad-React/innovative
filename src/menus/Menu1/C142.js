@@ -15,7 +15,7 @@ class App extends React.Component {
     // ComponentDidMount is used to
     // execute the code 
     componentDidMount() {
-        fetch('')
+        fetch('https://api.allorigins.win/get?url='+ encodeURIComponent('http://openweathermap.org/forecast5'))
             .then((res) => res.json())
             .then((json) => {
                 this.setState({

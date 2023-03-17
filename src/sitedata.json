@@ -19,7 +19,12 @@
          "name": " Static data",
          "link": "node201",
          "type": "page"
-       }
+       },
+       {
+        "name": " Static data2",
+        "link": "Static2",
+        "type": "page"
+      }
       
      ]
    },
@@ -42,53 +47,7 @@
   }
 
  ],
- "Pagetype1": [
-  {
-    "heading": "Call 5 day / 3 hour forecast data",
-    "cod": "200",
-    "message": 0,
-    "cnt": 40,
-    "list": [
-      {
-        "dt": 1661871600,
-        "main": [
-          {
-          "temp": 296.76,
-          "feels_like": 296.98,
-          "temp_min": 296.76,
-          "temp_max": 297.87,
-          "pressure": 1015,
-          "sea_level": 1015,
-          "grnd_level": 933,
-          "humidity": 69,
-          "temp_kf": -1.11
-        }
-        ],
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": [
-          {
-          "all": 100
-          }
-        ],
-          "wind":[
-         {
-          "speed": 0.62,
-          "deg": 349,
-          "gust": 1.18
-         }
-        ]
-      }
-      ]
-    }
- ],
-     
+  
 
      
  "contact": [
@@ -240,8 +199,183 @@
    }
  ],
 
- 
- 
+ "Pagetype2": [
+  {
+    "heading": "Call 5 day / 3 hour forecast data",
+    "cod": "200",
+    "message": 0,
+    "cnt": 40,
+    "list": [
+      {
+        "dt": 1661871600,
+        "main": [
+          {
+          "temp": 296.76,
+          "feels_like": 296.98,
+          "temp_min": 296.76,
+          "temp_max": 297.87,
+          "pressure": 1015,
+          "sea_level": 1015,
+          "grnd_level": 933,
+          "humidity": 69,
+          "temp_kf": -1.11
+        }
+        ],
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": [
+          {
+          "all": 100
+          }
+        ],
+          "wind":[
+         {
+          "speed": 0.62,
+          "deg": 349,
+          "gust": 1.18
+         }
+        ]
+      }
+      ]
+    }
+ ],
+    
+ "Pagetype1": [
+  {
+    "heading": " Call 5 day / 3 hour forecast data",
+    "detailservices": [
+    {
+    "header": "Temperature",
+    "date": "Date:15/03/2023",
+    "Trainingwing":"Min",
+    "Contact":"Max",
+    "paragraph":[ 
+
+      { 
+       
+        "Trainingwing":"296.76",
+        "Contactno":"297.87"
+      },
+      { 
+     
+        "Trainingwing":"Pressure",
+        "Contactno":"1015"
+      },
+      { 
+        "Trainingwing":"Humidity",
+        "Contactno":"69"
+      }
+   ]
+  }
+],
+"detailservice": [
+  {
+  "header": "Temperature",
+  "date": "Date:16/03/2023",
+  "Trainingwing":"Min",
+  "Contact":"Max",
+  "paragraph":[ 
+
+    { 
+     
+      "Trainingwing":"292.84",
+      "Contactno":"295.45"
+    },
+    { 
+   
+      "Trainingwing":"Pressure",
+      "Contactno":"1015"
+    },
+    { 
+      "Trainingwing":"Humidity",
+      "Contactno":"71"
+    }
+ ]
+}
+],
+"detailservic": [
+  {
+  "header": "Temperature",
+  "date": "Date:17/03/2023",
+  "Trainingwing":"Min",
+  "Contact":"Max",
+  "paragraph":[ 
+
+    { 
+     
+      "Trainingwing":"290.31",
+      "Contactno":"292.46"
+    },
+    { 
+   
+      "Trainingwing":"Pressure",
+      "Contactno":"1015"
+    },
+    { 
+      "Trainingwing":"Humidity",
+      "Contactno":"80"
+    }
+ ]
+}
+],
+"detailservi": [
+  {
+  "header": "Temperature",
+  "date": "Date:18/03/2023",
+  "Trainingwing":"Min",
+  "Contact":"Max",
+  "paragraph":[ 
+
+    { 
+     
+      "Trainingwing":"294.93",
+      "Contactno":"294.93"
+    },
+    { 
+   
+      "Trainingwing":"Pressure",
+      "Contactno":"1018"
+    },
+    { 
+      "Trainingwing":"Humidity",
+      "Contactno":"64"
+    }
+ ]
+}
+],
+"detailserv": [
+  {
+  "header": "Temperature",
+  "date": "Date:Date:19/03/2023",
+  "Trainingwing":"Min",
+  "Contact":"Max",
+  "paragraph":[ 
+
+    { 
+     
+      "Trainingwing":"294.93",
+      "Contactno":"294.93"
+    },
+    { 
+   
+      "Trainingwing":"Pressure",
+      "Contactno":"1018"
+    },
+    { 
+      "Trainingwing":"Humidity",
+      "Contactno":"64"
+    }
+ ]
+}
+]
+}
+],
  
 
  "...comment6":"Footer page updates",

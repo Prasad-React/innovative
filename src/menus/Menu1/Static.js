@@ -1,23 +1,168 @@
 import React from "react";
 import data from "../../sitedata.json";
-
+import "./home.css";
 
 function Pagetype1() {
   return (
     <div>
       {data.Pagetype1.map((information) => {
         return (
-          <section className="container" id=""  >
+          <section className="container" id="">
             <div className="content">
-              <h3 className=" m-3 ">{information.heading}</h3>
-               <h6 className="m-3">cod:{information.cod}</h6>
-               <h6 className="m-3">message:{information.message}</h6>
-                {information.list.map((content) => {
+              <h3 className="m-3">{information.heading}</h3>
+              {information.detailservices.map((content) => {
                 return (
                   <>
-                    <h3 className="  "> Temperature</h3>
-                    <p>{content.p}</p>
-                    <section>
+                  <div className="" id="q">
+                    <h5 className="  ">{content.header}</h5>
+                    <p>{content.date}</p>
+                    <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer" >
+                  <thread  > 
+                  <tr >
+                 <th style={{width:"50%"}} >{content.Trainingwing}</th>
+                 <th style={{width:"50%"}} >{content.Contact}</th>
+                  </tr>
+                  <tbody id="customer">
+                 {content.paragraph.map((details) => {
+                     return (
+                        <tr  >
+                       
+                      <td> {details.Trainingwing} </td> 
+                      <td> {details.Contactno} </td>  
+                       </tr>
+                     );
+                   })}
+                    </tbody>
+                  </thread>
+                 
+                  
+                </table>
+                </div>
+                </>);
+                })}
+                {information.detailservice.map((content) => {
+                return (
+                  <>
+                <div className="" id="q">
+                <aside>
+                <h5 className="  ">{content.header}</h5>
+                    <p>{content.date}</p>
+                <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer" >
+                  <thread  > 
+                  <tr >
+                 <th style={{width:"25%"}} >{content.Trainingwing}</th>
+                 <th style={{width:"25%"}} >{content.Contact}</th>
+                  </tr>
+                  <tbody id="customer">
+                 {content.paragraph.map((details) => {
+                     return (
+                        <tr  >
+                      <td> {details.Trainingwing} </td> 
+                      <td> {details.Contactno} </td>  
+                       </tr>
+                     );
+                   })}
+                    </tbody>
+                  </thread>
+                </table>
+                </aside>
+                </div>
+                  </>
+                );
+              })}
+               {information.detailservic.map((content) => {
+                return (
+                  <>
+                <div className="" id="q">
+                <aside>
+                <h5 className="  ">{content.header}</h5>
+                    <p>{content.date}</p>
+                <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer" >
+                  <thread  > 
+                  <tr >
+                 <th style={{width:"25%"}} >{content.Trainingwing}</th>
+                 <th style={{width:"25%"}} >{content.Contact}</th>
+                  </tr>
+                  <tbody id="customer">
+                 {content.paragraph.map((details) => {
+                     return (
+                        <tr  >
+                      <td> {details.Trainingwing} </td> 
+                      <td> {details.Contactno} </td>  
+                       </tr>
+                     );
+                   })}
+                    </tbody>
+                  </thread>
+                </table>
+                </aside>
+                </div>
+                  </>
+                );
+              })}
+             
+             {information.detailservi.map((content) => {
+                return (
+                  <>
+                <div className="" id="q">
+                <aside>
+                <h5 className="  ">{content.header}</h5>
+                    <p>{content.date}</p>
+                <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer" >
+                  <thread  > 
+                  <tr >
+                 <th style={{width:"25%"}} >{content.Trainingwing}</th>
+                 <th style={{width:"25%"}} >{content.Contact}</th>
+                  </tr>
+                  <tbody id="customer">
+                 {content.paragraph.map((details) => {
+                     return (
+                        <tr  >
+                      <td> {details.Trainingwing} </td> 
+                      <td> {details.Contactno} </td>  
+                       </tr>
+                     );
+                   })}
+                    </tbody>
+                  </thread>
+                </table>
+                </aside>
+                </div>
+                  </>
+                );
+              })}
+               {information.detailserv.map((content) => {
+                return (
+                  <>
+                <div className="" id="q">
+                <aside>
+                <h5 className="  ">{content.header}</h5>
+                    <p>{content.date}</p>
+                <table className="col-lg-12 col-xs-10 col-md-8 d-sm-10" id="customer" >
+                  <thread  > 
+                  <tr >
+                 <th style={{width:"25%"}} >{content.Trainingwing}</th>
+                 <th style={{width:"25%"}} >{content.Contact}</th>
+                  </tr>
+                  <tbody id="customer">
+                 {content.paragraph.map((details) => {
+                     return (
+                        <tr  >
+                      <td> {details.Trainingwing} </td> 
+                      <td> {details.Contactno} </td>  
+                       </tr>
+                     );
+                   })}
+                    </tbody>
+                  </thread>
+                </table>
+                </aside>
+                </div>
+                  </>
+                );
+              })}
+           </div>
+            {/* <section> 
                       {content.main.map((detail) => {
                         return (
                           <ul className="">
@@ -71,16 +216,16 @@ function Pagetype1() {
                              </ul>
                         );
                      })}
-                    </section>
-                  </>
-                );
-              })}
-            </div>
+                    </section> */} 
           </section>
-        );
-      })}
+         
+        )})}
     </div>
   );
 }
 
+
 export default Pagetype1;
+
+                    
+              

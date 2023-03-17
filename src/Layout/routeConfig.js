@@ -1,5 +1,6 @@
 
 import Home from "../menus/Menu1/Static.js";
+import Static2 from "../menus/Menu1/Static2.js";
 import node701 from "../menus/Menu4/Contact.js";
 import node201 from "../menus/Menu1/C142.js";
 import map from "../menus/Menu4/map";
@@ -14,6 +15,10 @@ const routesConfig = [
   {
     path: "/Home",
     component:Home,
+  },
+  {
+    path: "/Static2",
+    component:Static2,
   },
   {
     path: "/node701",

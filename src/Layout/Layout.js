@@ -3,7 +3,7 @@ import { Breadcrumb } from "react-bootstrap";
 import { Route, Switch } from "react-router-dom";
 import "./layout.css";
 import routeConfig from "./routeConfig.js";
-import Home from "./../menus/Menu1/C141.js"
+import Home from "./../menus/Menu1/C142.js"
 
 function Layout() {
   return (

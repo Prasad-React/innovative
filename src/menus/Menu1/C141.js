@@ -24,7 +24,7 @@ class Home extends React.Component {
         const requestOptions = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ }) //change the 'pname'(ex:p1 -project1 and p2-project2...etc..) for different projects
+            body: JSON.stringify({cod:200 }) //change the 'pname'(ex:p1 -project1 and p2-project2...etc..) for different projects
         };
         fetch(" http://openweathermap.org/forecast5", requestOptions)
         .then(response => response.json())

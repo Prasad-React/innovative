@@ -15,8 +15,7 @@ class App extends React.Component {
     // ComponentDidMount is used to
     // execute the code 
     componentDidMount() {
-        fetch(
-" http://openweathermap.org/forecast5")
+        fetch('')
             .then((res) => res.json())
             .then((json) => {
                 this.setState({

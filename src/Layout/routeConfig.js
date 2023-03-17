@@ -1,7 +1,7 @@
 
-import Home from "../menus/Menu1/C142.js";
+import Home from "../menus/Menu1/Static.js";
 import node701 from "../menus/Menu4/Contact.js";
-import node201 from "../menus/Menu1/Static.js";
+import node201 from "../menus/Menu1/C142.js";
 import map from "../menus/Menu4/map";
 import websitepolicies from "../Components/Footer/Webpolicies.js";
 import help from "../Components/Footer/Help";

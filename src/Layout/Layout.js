@@ -3,7 +3,7 @@ import { Breadcrumb } from "react-bootstrap";
 import { Route, Switch } from "react-router-dom";
 import "./layout.css";
 import routeConfig from "./routeConfig.js";
-import Home from "./../menus/Menu1/C142.js"
+import Static from "./../menus/Menu1/Static.js"
 
 function Layout() {
   return (
@@ -11,7 +11,7 @@ function Layout() {
      <div>
        <Switch>
         <Route exact path="/" >
-         <Home/>
+         <Static/>
          </Route>
         {routeConfig.map((route, i) => (
           <Route key={route} {...route} />

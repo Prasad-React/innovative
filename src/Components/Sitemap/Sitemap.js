@@ -75,46 +75,7 @@ function Header() {
       );
     })}
 </div>
-             {/*  <div className="sitemapB "  id="">
-              {data.Navlink1.map((j) => {
-                return (
-                    <ul className=" ">
-                      <a className=" " href={j.link} id="navbarDropdown">
-                      <i  className=" fa fa-hand-o-right  px-2"></i>
-                      {j.title}
-                        <span className="sr-only">(current)</span>
-                      </a>
-                    </ul>
-                );
-              })}
-           </div>
-
-         <div className="sitemapC "  id="">
-              {data.Navlink2.map((j) => {
-                return (
-                    <ul className=" ">
-                      <a className=" " href={j.link} target="_blank" id="navbarDropdown">
-                      <i  className=" fa fa-hand-o-right  px-2"></i>
-                      {j.title}
-                      </a>
-                    </ul>
-                 );
-               })}
-              </div>
-
-      <div className="sitemapD"  id="">
-              {data.Navlink3.map((j) => {
-                return (
-                    <ul className="">
-                      <a className="  " href={j.link}  >
-                      <i  className=" fa fa-hand-o-right  px-2"></i>
-                        {j.title}
-                        <span className="sr-only">(current)</span>
-                      </a>
-                    </ul>
-                 );
-               })}
-            </div>*/}
+           
 
 
            

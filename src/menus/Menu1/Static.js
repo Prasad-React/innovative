@@ -15,14 +15,14 @@ function Pagetype1() {
                 {information.list.map((content) => {
                 return (
                   <>
-                    <h5 className="  "> dt:{content.dt}</h5>
+                    <h3 className="  "> Temperature</h3>
                     <p>{content.p}</p>
                     <section>
                       {content.main.map((detail) => {
                         return (
                           <ul className="">
                           <p className="" id="p">
-                        Temperature:{detail.temp} </p>
+                            Temperature:{detail.temp} </p>
                             <p>feels_like:{detail.feels_like}</p>
                             <p> temp_min:{detail.temp_min}</p>
                             <p> temp_max:{detail.temp_max}</p>
@@ -31,6 +31,42 @@ function Pagetype1() {
                             <p>  grnd_level:{detail.grnd_level}</p>
                             <p>  humidity:{detail.humidity}</p>
                             <p>  temp_kf:{detail.temp_kf}</p>
+                            
+                             </ul>
+                        );
+                     })}
+                     <h3>Weather</h3>
+                     {content.weather.map((detail) => {
+                        return (
+                          <ul className="">
+                          <p className="" id="p">
+                            weather:{detail.id} </p>
+                            <p>main:{detail.main}</p>
+                            <p> description:{detail.description}</p>
+                            <p> 10d:{detail.icon}</p>
+                            
+                            
+                             </ul>
+                        );
+                     })}
+                       <h3>Clouds</h3>
+                     {content.clouds.map((detail) => {
+                        return (
+                          <ul className="">
+                          <p className="" id="p">
+                            All:{detail.all} </p>
+                           
+                             </ul>
+                        );
+                     })}
+                       <h3>Winds</h3>
+                     {content.wind.map((detail) => {
+                        return (
+                          <ul className="">
+                          <p className="" id="p">
+                            Speed:{detail.speed} </p>
+                            <p>deg:{detail.deg}</p>
+                            <p> gust:{detail.description}</p>
                             
                              </ul>
                         );

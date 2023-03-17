@@ -35,7 +35,10 @@
         "type": "page"
       }
      
-    ]
+    ],
+    "imgsrc": "./images/address.png",
+    "imgalt": "image1",
+    "link" :"/nicapsc-dca/map"
   }
 
  ],
@@ -60,6 +63,26 @@
           "humidity": 69,
           "temp_kf": -1.11
         }
+        ],
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": [
+          {
+          "all": 100
+          }
+        ],
+          "wind":[
+         {
+          "speed": 0.62,
+          "deg": 349,
+          "gust": 1.18
+         }
         ]
       }
       ]
@@ -88,7 +111,7 @@
       }
 
     ],
-    "imgsrc": "",
+    "imgsrc": "./images/address.png",
     "imgalt": "image1",
     "link" :"/nicapsc-dca/map"
   }
